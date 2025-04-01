@@ -23,6 +23,7 @@ document.getElementById('weapon_type').addEventListener('change', async () => {
 
     try {
         let weaponTypeLowerCase = weaponType.toLowerCase(); // Met en minuscule le type d'arme
+        console.log(weaponTypeLowerCase)
         const response = await fetch(`../json/${weaponTypeLowerCase}.json`); // Vérifie le chemin
         weaponData = await response.json();
         weaponsList = weaponData.SnS.weapons; // Stocke toutes les armes sous forme d'objet
