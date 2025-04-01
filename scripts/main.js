@@ -24,7 +24,8 @@ document.getElementById('weapon_type').addEventListener('change', async () => {
     try {
         let weaponTypeLowerCase = weaponType.toLowerCase(); // Met en minuscule le type d'arme
         console.log(weaponTypeLowerCase)
-        const response = await fetch(`../json/${weaponTypeLowerCase}.json`); // Vérifie le chemin
+        // const response = await fetch(`../json/${weaponTypeLowerCase}.json`); // Vérifie le chemin
+        const response = await fetch(`https://nexide0810.github.io/MHF1_DamageCalculator/json/${weaponTypeLowerCase}.json`);
         weaponData = await response.json();
         weaponsList = weaponData.SnS.weapons; // Stocke toutes les armes sous forme d'objet
     } catch (error) {
@@ -87,7 +88,8 @@ document.getElementById('generation').addEventListener('click', async () => { //
     let monster = {};
     let monsterSelected = document.getElementById('monster').value; // Récupère la valeur sélectionnée
     try {
-        const response = await fetch('../json/monsters.json'); // Attendre la réponse
+        // const response = await fetch('../json/monsters.json'); // Attendre la réponse
+        const response = await fetch('https://nexide0810.github.io/MHF1_DamageCalculator/json/monsters.json'); // Vérifie le chemin
         const data = await response.json(); // Attendre la conversion du JSON
         monster = data[monsterSelected]; // Stocke tous les monstres sous forme d'objet
     } catch (error) {
