@@ -1,0 +1,366 @@
+{
+    "GS": {
+        "name": "Great Sword",
+        "variable_damage": 1,
+        "special_var_damage": 1.05,
+        "special_var_damage_condition": "Attack hits with center of blade",
+        "class_damage": 4.8,
+        "attacks": {
+            "Regular_slice": {
+                "input": "triangle",
+                "motion_value": 0.48
+            },
+            "Sideways_slash": {
+                "input": "circle",
+                "motion_value": 0.36
+            },
+            "Upswing": {
+                "input": "triangle + circle",
+                "motion_value": 0.46
+            },
+            "Unsheathe": {
+                "input": "unsheathe",
+                "motion_value": 0.48
+            }
+        }
+    },
+    "SnS": {
+        "name": "Sword and Shield",
+        "variable_damage": 1.5,
+        "special_var_damage": null,
+        "special_var_damage_condition": null,
+        "class_damage": 1.4,
+        "attacks": {
+            "Regular_combo_1": {
+                "input": "triangle",
+                "motion_value": 0.14
+            },
+            "Regular_combo_2": {
+                "input": "triangle + triangle",
+                "motion_value": 0.12
+            },
+            "Regular_combo_3": {
+                "input": "triangle + triangle + triangle",
+                "motion_value": 0.08
+            },
+            "Regular_combo_4": {
+                "input": "triangle + triangle + triangle",
+                "motion_value": 0.12
+            },
+            "Revolving_slice": {
+                "input": "circle",
+                "motion_value": 0.24
+            },
+            "Jumping_slice": {
+                "input": "triangle + circle",
+                "motion_value": 0.18
+            },
+            "Rolling_slice": {
+                "input": "roll + triangle",
+                "motion_value": 0.15
+            },
+            "Guard_attack": {
+                "input": "guard + triangle",
+                "motion_value": 0.14
+            },
+            "Unsheathe_attack": {
+                "input": "unsheathe",
+                "motion_value": 0.18
+            }
+        }
+    },
+    "DB": {
+        "name": "Dual Blades",
+        "variable_damage": 1,
+        "special_var_damage": null,
+        "special_var_damage_condition": null,
+        "class_damage": 1.4,
+        "attacks": {
+            "Regular_combo_1": {
+                "input": "triangle",
+                "motion_value": 0.14
+            },
+            "Regular_combo_2": {
+                "input": "triangle",
+                "motion_value": 0.08
+            },
+            "Regular_combo_3": {
+                "input": "triangle + triangle",
+                "motion_value": 0.06
+            },
+            "Regular_combo_4": {
+                "input": "triangle + triangle",
+                "motion_value": 0.05
+            },
+            "Regular_combo_5": {
+                "input": "triangle + triangle + triangle",
+                "motion_value": 0.07
+            },
+            "Regular_combo_6": {
+                "input": "triangle + triangle + triangle",
+                "motion_value": 0.16
+            },
+            "Revolving_slice_1": {
+                "input": "circle",
+                "motion_value": 0.10
+            },
+            "Revolving_slice_2": {
+                "input": "circle",
+                "motion_value": 0.08
+            },
+            "Revolving_slice_3": {
+                "input": "circle",
+                "motion_value": 0.06
+            },
+            "Charging_slice_1": {
+                "input": "triangle + circle",
+                "motion_value": 0.12
+            },
+            "Charging_slice_2": {
+                "input": "triangle + circle",
+                "motion_value": 0.06
+            },
+            "Rolling_slice": {
+                "input": "roll + triangle",
+                "motion_value": 0.15
+            },
+            "Unsheathe_attack_1": {
+                "input": "unsheathe",
+                "motion_value": 0.12
+            },
+            "Unsheathe_attack_2": {
+                "input": "unsheathe",
+                "motion_value": 0.06
+            }
+        },
+        "attacks_berserk": {
+            "Berserk_regular_combo_1": {
+                "input": "triangle",
+                "motion_value": 0.18
+            },
+            "Berserk_regular_combo_2": {
+                "input": "triangle",
+                "motion_value": 0.10
+            },
+            "Berserk_regular_combo_3": {
+                "input": "triangle + triangle",
+                "motion_value": 0.08
+            },
+            "Berserk_regular_combo_4": {
+                "input": "triangle + triangle",
+                "motion_value": 0.06
+            },
+            "Berserk_regular_combo_5": {
+                "input": "triangle + triangle + triangle",
+                "motion_value": 0.09
+            },
+            "Berserk_regular_combo_6": {
+                "input": "triangle + triangle + triangle",
+                "motion_value": 0.21
+            },
+            "Berserk_revolving_slice_1": {
+                "input": "circle",
+                "motion_value": 0.13
+            },
+            "Berserk_revolving_slice_2": {
+                "input": "circle",
+                "motion_value": 0.10
+            },
+            "Berserk_revolving_slice_3": {
+                "input": "circle",
+                "motion_value": 0.08
+            },
+            "Berserk_revolving_slice_4": {
+                "input": "circle",
+                "motion_value": 0.13
+            },
+            "Berserk_revolving_slice_5": {
+                "input": "circle",
+                "motion_value": 0.10
+            },
+            "Berserk_revolving_slice_6": {
+                "input": "circle",
+                "motion_value": 0.08
+            },
+            "Fury_combo_1": {
+                "input": "triangle + circle",
+                "motion_value": 0.14
+            },
+            "Fury_combo_2": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_3": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_4": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_5": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_6": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_7": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_8": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_9": {
+                "input": "triangle + circle",
+                "motion_value": 0.05
+            },
+            "Fury_combo_10": {
+                "input": "triangle + circle",
+                "motion_value": 0.33
+            },
+            "Berserk_rolling_slice": {
+                "input": "roll + triangle",
+                "motion_value": 0.20
+            }
+        }
+    },
+    "Hammer": {
+        "name": "Hammer",
+        "variable_damage": 1,
+        "special_var_damage": null,
+        "special_var_damage_condition": null,
+        "class_damage": 5.2,
+        "attacks" : {
+            "Regular_combo_1": {
+                "input": "triangle",
+                "motion_value": 0.52
+            },
+            "Regular_combo_2": {
+                "input": "triangle",
+                "motion_value": 0.20
+            },
+            "Regular_combo_3": {
+                "input": "triangle + triangle",
+                "motion_value": 1
+            },
+            "Side_swing": {
+                "input": "circle",
+                "motion_value": 0.15
+            },
+            "Spinning_attack_1": {
+                "input": "r1 + move",
+                "motion_value": 0.20
+            },
+            "Spinning_attack_2": {
+                "input": "r1 + move",
+                "motion_value": 0.10
+            },
+            "Spinning_attack_3": {
+                "input": "r1 + move",
+                "motion_value": 0.10
+            },
+            "Spinning_attack_4": {
+                "input": "r1 + move",
+                "motion_value": 0.10
+            },
+            "Spinning_attack_5": {
+                "input": "r1 + move",
+                "motion_value": 0.10
+            },
+            "Spinning_attack_6": {
+                "input": "r1 + move",
+                "motion_value": 0.10
+            },
+            "Golfswing_finisher_1hit": {
+                "input": "r1 + move",
+                "motion_value": 0.40
+            },
+            "Golfswing_finisher_4hit": {
+                "input": "r1 + move",
+                "motion_value": 0.70
+            },
+            "Golfswing_finisher_6hit": {
+                "input": "r1 + move",
+                "motion_value": 0.90
+            },
+            "Short_charge": {
+                "input": "r1",
+                "motion_value": 0.45
+            },
+            "Medium_charge_1": {
+                "input": "r1",
+                "motion_value": 0.45
+            },
+            "Medium_charge_2": {
+                "input": "r1",
+                "motion_value": 0.35
+            },
+            "Superpound_1": {
+                "input": "r1",
+                "motion_value": 0.20
+            },
+            "Superpound_2": {
+                "input": "r1",
+                "motion_value": 0.76
+            },
+            "Unsheathe_attack": {
+                "input": "unsheathe",
+                "motion_value": 0.20
+            }
+
+        }
+    },
+    "Lance": {
+        "name": "Lance",
+        "variable_damage": 1,
+        "special_var_damage": 0.925,
+        "special_var_damage_condition": "Normal Stab, Upward Starb, Unsheathe",
+        "class_damage": 2.3,
+        "attacks": {
+            "Normal_stab_combo_1": {
+                "input": "triangle",
+                "motion_value": 0.23
+            },
+            "Normal_stab_combo_2": {
+                "input": "triangle",
+                "motion_value": 0.23
+            },
+            "Normal_stab_combo_3": {
+                "input": "triangle",
+                "motion_value": 0.30
+            },
+            "Upward_stab_combo_1": {
+                "input": "circle",
+                "motion_value": 0.28
+            },
+            "Upward_stab_combo_2": {
+                "input": "circle",
+                "motion_value": 0.28
+            },
+            "Upward_stab_combo_3": {
+                "input": "circle",
+                "motion_value": 0.30
+            },
+            "Charge_through": {
+                "input": "triangle + circle",
+                "motion_value": 0.20
+            },
+            "Charge_stab_finisher": {
+                "input": "triangle + circle",
+                "motion_value": 0.40
+            },
+            "Guard_attack": {
+                "input": "guard + triangle",
+                "motion_value": 0.20
+            },
+            "Unsheathe_attack": {
+                "input": "unsheathe",
+                "motion_value": 0.28
+            }
+        }
+    }
+}

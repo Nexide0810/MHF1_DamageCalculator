@@ -1,0 +1,1192 @@
+{
+    "SnS": {
+        "name": "Sword and Shield",
+        "variable": 1.5,
+        "special_var_damage": null,
+        "special_var_damage_condition": null,
+        "class_damage": 1.4,
+        "motionValues": [
+            {
+                "name": "Regular_combo_1",
+                "input": "triangle",
+                "motion_value": 0.14
+            },
+            {
+                "name": "Regular_combo_2",
+                "input": "triangle",
+                "motion_value": 0.12
+            },
+            {
+                "name": "Regular_combo_3",
+                "input": "triangle",
+                "motion_value": 0.08
+            },
+            {
+                "name": "Regular_combo_4",
+                "input": "triangle",
+                "motion_value": 0.12
+            },
+            {
+                "name": "Revolving_slice",
+                "input": "circle",
+                "motion_value": 0.24
+            },
+            {
+                "name": "Jumping_slice",
+                "input": "triangle_circle",
+                "motion_value": 0.18
+            },
+            {
+                "name": "Rolling_slice",
+                "input": "roll",
+                "motion_value": 0.15
+            },
+            {
+                "name": "Guard_attack",
+                "input": "guard",
+                "motion_value": 0.14
+            },
+            {
+                "name": "Unsheathe_attack",
+                "input": "unsheathe",
+                "motion_value": 0.18
+            }
+        ],
+        "weapons": {
+            "Bone_Kris": {
+                "name": "Bone Kris",
+                "attack": 98,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Bone_Kris+": {
+                "name": "Bone Kris+",
+                "attack": 126,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Bonepick": {
+                "name": "Bonepick",
+                "attack": 154,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Bonepick+": {
+                "name": "Bonepick+",
+                "attack": 168,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Bonespike": {
+                "name": "Bonespike",
+                "attack": 182,
+                "sharpness": "green",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Weary_Finsword": {
+                "name": "Weary Finsword",
+                "attack": 154,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "sleep",
+                    "value": 200
+                }
+            },
+            "Sandman_Findsword": {
+                "name": "Sandman Findsword",
+                "attack": 168,
+                "sharpness": "green",
+                "tier": 2,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "sleep",
+                    "value": 230
+                }
+            },
+            "Sandman_Spike": {
+                "name": "Sandman Spike",
+                "attack": 238,
+                "sharpness": "green",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "sleep",
+                    "value": 260
+                }
+            },
+            "High_Sandman_Spike": {
+                "name": "High Sandman Spike",
+                "attack": 266,
+                "sharpness": "green",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "sleep",
+                    "value": 320
+                }
+            },
+            "Crimson_Club": {
+                "name": "Crimson Club",
+                "attack": 168,
+                "sharpness": "yellow",
+                "tier": 3,
+                "element": {
+                    "type": "fire",
+                    "value": 140
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Monoblos_Club": {
+                "name": "Monoblos Club",
+                "attack": 196,
+                "sharpness": "yellow",
+                "tier": 3,
+                "element": {
+                    "type": "fire",
+                    "value": 310
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Studed_Club": {
+                "name": "Studed Club",
+                "attack": 238,
+                "sharpness": "yellow",
+                "tier": 4,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Spiked_Bat": {
+                "name": "Spiked Bat",
+                "attack": 308,
+                "sharpness": "green",
+                "tier": 4,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Cursed_Spirit": {
+                "name": "Cursed Spirit",
+                "attack": 350,
+                "sharpness": "green",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Corona": {
+                "name": "Corona",
+                "attack": 168,
+                "sharpness": "green",
+                "tier": 4,
+                "element": {
+                    "type": "fire",
+                    "value": 440
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Golden_Falchion": {
+                "name": "Golden Falchion",
+                "attack": 266,
+                "sharpness": "green",
+                "tier": 7,
+                "element": {
+                    "type": "fire",
+                    "value": 480
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Red_Saber": {
+                "name": "Red Saber",
+                "attack": 196,
+                "sharpness": "yellow",
+                "tier": 2,
+                "element": {
+                    "type": "fire",
+                    "value": 240
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Red_Saber+": {
+                "name": "Red Saber+",
+                "attack": 210,
+                "sharpness": "yellow",
+                "tier": 2,
+                "element": {
+                    "type": "fire",
+                    "value": 270
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Djinn": {
+                "name": "Djinn",
+                "attack": 238,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": "fire",
+                    "value": 380
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Djinn+": {
+                "name": "Djinn+",
+                "attack": 252,
+                "sharpness": "blue",
+                "tier": 5,
+                "element": {
+                    "type": "fire",
+                    "value": 400
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Flame_Falchion": {
+                "name": "Flame Falchion",
+                "attack": 224,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": "fire",
+                    "value": 310
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Blazing_Falchion": {
+                "name": "Blazing Falchion",
+                "attack": 238,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": "fire",
+                    "value": 380
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "High_Ifrit": {
+                "name": "High Ifrit",
+                "attack": 280,
+                "sharpness": "blue",
+                "tier": 3,
+                "element": {
+                    "type": "fire",
+                    "value": 380
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Hunter's_Knife": {
+                "name": "Hunter's Knife",
+                "attack": 84,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Hunter's_Knife+": {
+                "name": "Hunter's Knife+",
+                "attack": 112,
+                "sharpness": "green",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Hunter's_Dagger": {
+                "name": "Hunter's Dagger",
+                "attack": 140,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Hunter's_Dagger+": {
+                "name": "Hunter's Dagger+",
+                "attack": 168,
+                "sharpness": "green",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Assassin's_Dagger": {
+                "name": "Assassin's Dagger",
+                "attack": 196,
+                "sharpness": "green",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Serpent_Bite": {
+                "name": "Serpent Bite",
+                "attack": 140,
+                "sharpness": "yellow",
+                "tier": 2,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Serpent_Bite+": {
+                "name": "Serpent Bite+",
+                "attack": 168,
+                "sharpness": "yellow",
+                "tier": 2,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Viper_Bite": {
+                "name": "Viper Bite",
+                "attack": 182,
+                "sharpness": "yellow",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 180
+                }
+            },
+            "Viper_Bite+": {
+                "name": "Viper Bite+",
+                "attack": 196,
+                "sharpness": "yellow",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 220
+                }
+            },
+            "Deathprize": {
+                "name": "Deathprize",
+                "attack": 210,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 260
+                }
+            },
+            "Hydra_Bite": {
+                "name": "Hydra Bite",
+                "attack": 84,
+                "sharpness": "yellow",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "poison",
+                    "value": 200
+                }
+            },
+            "Hydra_Bite+": {
+                "name": "Hydra Bite+",
+                "attack": 126,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "poison",
+                    "value": 280
+                }
+            },
+            "Deadly_Poison": {
+                "name": "Deadly Poison",
+                "attack": 168,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "poison",
+                    "value": 360
+                }
+            },
+            "Poison_Axe": {
+                "name": "Poison Axe",
+                "attack": 224,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "poison",
+                    "value": 180
+                }
+            },
+            "Poison_Battleaxe": {
+                "name": "Poison Battleaxe",
+                "attack": 238,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "poison",
+                    "value": 260
+                }
+            },
+            "Upper_Battleaxe": {
+                "name": "Upper Battleaxe",
+                "attack": 252,
+                "sharpness": "yellow",
+                "tier": 4,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "poison",
+                    "value": 320
+                }
+            },
+            "Deadly_Battleaxe": {
+                "name": "Deadly Battleaxe",
+                "attack": 266,
+                "sharpness": "green",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "poison",
+                    "value": 380
+                }
+            },
+            "Thunderbane": {
+                "name": "Thunderbane",
+                "attack": 224,
+                "sharpness": "yellow",
+                "tier": 4,
+                "element": {
+                    "type": "thunder",
+                    "value": 180
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Frightbane": {
+                "name": "Frightbane",
+                "attack": 280,
+                "sharpness": "green",
+                "tier": 4,
+                "element": {
+                    "type": "thunder",
+                    "value": 220
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Thundertip": {
+                "name": "Thundertip",
+                "attack": 308,
+                "sharpness": "green",
+                "tier": 4,
+                "element": {
+                    "type": "thunder",
+                    "value": 240
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Kirin_Bol_Indora": {
+                "name": "Kirin Bol Indora",
+                "attack": 322,
+                "sharpness": "blue",
+                "tier": 6,
+                "element": {
+                    "type": "thunder",
+                    "value": 220
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Master's_Dagger": {
+                "name": "Master's Dagger",
+                "attack": 224,
+                "sharpness": "green",
+                "tier": 4,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Odyssey": {
+                "name": "Odyssey",
+                "attack": 252,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": "water",
+                    "value": 300
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Odyssey_Blade": {
+                "name": "Odyssey Blade",
+                "attack": 280,
+                "sharpness": "blue",
+                "tier": 6,
+                "element": {
+                    "type": "water",
+                    "value": 380
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Dragonbuster": {
+                "name": "Dragonbuster",
+                "attack": 252,
+                "sharpness": "yellow",
+                "tier": 4,
+                "element": {
+                    "type": "dragon",
+                    "value": 200
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Dragonblood": {
+                "name": "Dragonblood",
+                "attack": 266,
+                "sharpness": "green",
+                "tier": 4,
+                "element": {
+                    "type": "dragon",
+                    "value": 240
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Black_Dragon_Sword": {
+                "name": "Black Dragon Sword",
+                "attack": 280,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": "dragon",
+                    "value": 300
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Black_Ruiner_Sword": {
+                "name": "Black Ruiner Sword",
+                "attack": 308,
+                "sharpness": "blue",
+                "tier": 7,
+                "element": {
+                    "type": "dragon",
+                    "value": 480
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "True_Black_Dragon_Sword": {
+                "name": "True Black Dragon Sword",
+                "attack": 336,
+                "sharpness": "Blue",
+                "tier": 7,
+                "element": {
+                    "type": "dragon",
+                    "value": 400
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Frost_Edge": {
+                "name": "Frost Edge",
+                "attack": 196,
+                "sharpness": "green",
+                "tier": 3,
+                "element": {
+                    "type": "water",
+                    "value": 380
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Frost_Edge+": {
+                "name": "Frost Edge+",
+                "attack": 210,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": "water",
+                    "value": 480
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Raven_Blade": {
+                "name": "Raven Blade",
+                "attack": 224,
+                "sharpness": "blue",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Wolf_Blade": {
+                "name": "Wolf Blade",
+                "attack": 252,
+                "sharpness": "white",
+                "tier": 7,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Hero(s_Blade": {
+                "name": "Hero's Blade",
+                "attack": 252,
+                "sharpness": "yellow",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Master's_Blade": {
+                "name": "Master's Blade",
+                "attack": 280,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Kirin_Bolt": {
+                "name": "Kirin Bolt",
+                "attack": 182,
+                "sharpness": "yellow",
+                "tier": 5,
+                "element": {
+                    "type": "thunder",
+                    "value": 200
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Kirin_Bolt+": {
+                "name": "Kirin Bolt+",
+                "attack": 196,
+                "sharpness": "yellow",
+                "tier": 5,
+                "element": {
+                    "type": "thunder",
+                    "value": 250
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Kirin_Bolt_Mega": {
+                "name": "Kirin Bolt Mega",
+                "attack": 210,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": "thunder",
+                    "value": 300
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Kirin_Bol_Ultimus": {
+                "name": "Kirin Bol Ultimus",
+                "attack": 224,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": "thunder",
+                    "value": 340
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Kirin_Bolt_Kami": {
+                "name": "Kirin Bolt Kami",
+                "attack": 238,
+                "sharpness": "blue",
+                "tier": 6,
+                "element": {
+                    "type": "thunder",
+                    "value": 390
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Velocidrome_Bite": {
+                "name": "Velocidrome Bite",
+                "attack": 294,
+                "sharpness": "blue",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Black_Belt_Sword": {
+                "name": "Black Belt Sword",
+                "attack": 224,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 280
+                }
+            },
+            "Expert_Sword": {
+                "name": "Expert Sword",
+                "attack": 280,
+                "sharpness": "green",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 340
+                }
+            },
+            "Rusted_Sword": {
+                "name": "Rusted Sword",
+                "attack": 42,
+                "sharpness": "red",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Tarnished_Sword": {
+                "name": "Tarnished Sword",
+                "attack": 56,
+                "sharpness": "red",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Legendary_Sword": {
+                "name": "Legendary Sword",
+                "attack": 252,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Eternal_Strife": {
+                "name": "Eternal Strife",
+                "attack": 112,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": "dragon",
+                    "value": 630
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Kitchen_Knife": {
+                "name": "Kitchen Knife",
+                "attack": 112,
+                "sharpness": "yellow",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Iron_Chefblade": {
+                "name": "Iron Chefblade",
+                "attack": 168,
+                "sharpness": "green",
+                "tier": 1,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Millenium_Knife": {
+                "name": "Millenium Knife",
+                "attack": 168,
+                "sharpness": "white",
+                "tier": 4,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Ninja_Sword": {
+                "name": "Ninja Sword",
+                "attack": 266,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Great_Ninja_Sword": {
+                "name": "Great Ninja Sword",
+                "attack": 336,
+                "sharpness": "green",
+                "tier": 7,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Shining_Wyvern_Blade": {
+                "name": "Shining Wyvern Blade",
+                "attack": 357,
+                "sharpness": "white",
+                "tier": 7,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Blue_Ogre_Sword": {
+                "name": "Blue Ogre Sword",
+                "attack": 140,
+                "sharpness": "white",
+                "tier": 7,
+                "element": {
+                    "type": "dragon",
+                    "value": 650
+                },
+                "status": {
+                    "type": null,
+                    "value": null
+                }
+            },
+            "Catspaw": {
+                "name": "Catspaw",
+                "attack": 112,
+                "sharpness": "yellow",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 180
+                }
+            },
+            "Catburglar": {
+                "name": "Catburglar",
+                "attack": 98,
+                "sharpness": "green",
+                "tier": 5,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 300
+                }
+            },
+            "Melynx_Tool": {
+                "name": "Melynx Tool",
+                "attack": 84,
+                "sharpness": "green",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 360
+                }
+            },
+            "Melynx_Gadget": {
+                "name": "Melynx Gadget",
+                "attack": 168,
+                "sharpness": "white",
+                "tier": 6,
+                "element": {
+                    "type": null,
+                    "value": null
+                },
+                "status": {
+                    "type": "paralysis",
+                    "value": 320
+                }
+            }
+        }
+    }
+}

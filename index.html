@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MH Calculator Damage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <style>
+        #suggestions {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #ccc;
+            max-width: 100%;
+            position: absolute;
+            background-color: white;
+        }
+
+        #suggestions li {
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        #suggestions li:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="my-5 mx-5">
+        <!-- Titre de la page -->
+        <h1 class="text-center mb-4">Monster Hunter Freedom - Damage Calculator</h1>
+
+        <!-- Formulaire principal -->
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="row mb-3">
+                    <!-- Type d'arme -->
+                    <div class="col-6 col-md-3">
+                        <label for="weapon_type" class="form-label">Type d'arme</label>
+                        <select class="form-select" id="weapon_type">
+                            <option value="none">Choisissez un type</option>
+                            <option value="GS">Greatsword</option>
+                            <option value="SnS">Sword and Shield</option>
+                            <option value="DB">Dual Blades</option>
+                            <option value="Hammer">Hammer</option>
+                            <option value="Lance">Lance</option>
+                        </select>
+                    </div>
+
+                    <!-- Recherche d'arme -->
+                    <div class="col-6 col-md-3">
+                        <label for="weapon" class="form-label">Rechercher une arme</label>
+                        <input type="text" class="form-control" id="weapon" list="suggestions"
+                            placeholder="Rechercher..." autocomplete="off">
+                        <datalist id="suggestions"></datalist>
+                    </div>
+
+                    <!-- Monstre -->
+                    <div class="col-6 col-md-3">
+                        <label for="monster" class="form-label">Monstre</label>
+                        <select class="form-select" id="monster">
+                            <option value="none">Choisissez un monstre</option>
+                            <option value="Rathian">Rathian</option>
+                            <option value="Diablos">Diablos</option>
+                            <option value="Fatalis">Fatalis</option>
+                        </select>
+                    </div>
+
+                    <!-- Boutons -->
+                    <div class="col-6 col-md-3 d-flex justify-content-start align-items-end">
+                        <button type="button" class="btn btn-primary" id="generation">Générer</button>
+                        <button type="button" class="btn btn-secondary ms-3" id="clear_monster">Réinitialiser</button>
+                    </div>
+                </div>
+                <div class="row mb-3">
+
+                    <!-- Puissance d'attaque -->
+                    <div class="col-6 col-md-3">
+                        <label for="attack_power" class="form-label">Attaque</label>
+                        <input type="text" class="form-control" id="attack_power"
+                            placeholder="Entrez la puissance d'attaque">
+                    </div>
+                    <!-- Tranchant -->
+                    <div class="col-6 col-md-3">
+                        <label for="sharpness" class="form-label">Tranchant</label>
+                        <select class="form-select" id="sharpness">
+                            <option value="red">Rouge</option>
+                            <option value="orange">Orange</option>
+                            <option value="yellow">Jaune</option>
+                            <option value="green">Vert</option>
+                            <option value="blue">Bleu</option>
+                            <option value="white">Blanc</option>
+                        </select>
+                    </div>
+
+                    <!-- Élément -->
+                    <div class="col-6 col-md-3">
+                        <label for="element_type" class="form-label">Élément</label>
+                        <select class="form-select" id="element_type">
+                            <option value="none">Choisissez un élément</option>
+                            <option value="fire">Feu</option>
+                            <option value="water">Eau</option>
+                            <option value="thunder">Foudre</option>
+                            <option value="dragon">Dragon</option>
+                        </select>
+                    </div>
+
+                    <!-- Valeur de l'élément -->
+                    <div class="col-6 col-md-3">
+                        <label for="element_value" class="form-label">Valeur de l'élément</label>
+                        <input type="text" class="form-control" id="element_value"
+                            placeholder="Entrez la valeur de l'élément">
+                    </div>
+
+                </div>
+
+                <!-- Tableaux générés -->
+                <div id="monsters_tables" class="mt-4">
+                    <div id="generated_tables" class="row mb-3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="/scripts/functions.js"></script>
+    <script src="/scripts/main.js"></script>
+
+</body>
+
+</html>
