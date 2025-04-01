@@ -4,4 +4,4 @@
 **For now only Raw Damage work**
 
 Damage calculator for Monster Hunter Freedom (PSP)  
-Select your weapon and the monster and you get your damage
+Select your weapon and monster to get a damage table
