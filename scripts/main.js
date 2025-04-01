@@ -22,7 +22,7 @@ document.getElementById('weapon_type').addEventListener('change', async () => {
     let weaponsList = {}; // Stocke les armes sous forme d'objet
 
     try {
-        const response = await fetch(`json/${weaponType}.json`); // Vérifie le chemin
+        const response = await fetch(`../json/${weaponType}.json`); // Vérifie le chemin
         weaponData = await response.json();
         weaponsList = weaponData.SnS.weapons; // Stocke toutes les armes sous forme d'objet
     } catch (error) {
@@ -85,7 +85,7 @@ document.getElementById('generation').addEventListener('click', async () => { //
     let monster = {};
     let monsterSelected = document.getElementById('monster').value; // Récupère la valeur sélectionnée
     try {
-        const response = await fetch('json/monsters.json'); // Attendre la réponse
+        const response = await fetch('../json/monsters.json'); // Attendre la réponse
         const data = await response.json(); // Attendre la conversion du JSON
         monster = data[monsterSelected]; // Stocke tous les monstres sous forme d'objet
     } catch (error) {
