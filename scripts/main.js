@@ -23,7 +23,6 @@ document.getElementById('weapon_type').addEventListener('change', async () => {
 
     try {
         let weaponTypeLowerCase = weaponType.toLowerCase(); // Met en minuscule le type d'arme
-        console.log(weaponTypeLowerCase)
         // const response = await fetch(`../json/${weaponTypeLowerCase}.json`); // Vérifie le chemin
         const response = await fetch(`https://nexide0810.github.io/MHF1_DamageCalculator/json/${weaponTypeLowerCase}.json`);
         weaponData = await response.json();
@@ -136,9 +135,13 @@ document.getElementById('generation').addEventListener('click', async () => { //
     }
 
     
-    console.log('elem', processHitzones(monster, elementType));
     const results = applyDamageCalculation(monster, 'raw', attackPower, sharpness_multiplier)
-    generateDamageTable(results);
+    let resultsElem
+    if (elementType !== "none") {
+        resultsElem = applyDamageCalculation(monster, elementType, elementValue, element_sharpness_multiplier)
+    }
+    console.log(resultsElem)
+    generateDamageTable(results, resultsElem, elementType);
 
 });
 

@@ -62,7 +62,7 @@ const rawDamageCalculation = (attack, sharpnessValue, hitzone, weapon) => {
     return { triCombo, cirCombo, tricirCombo, rollCombo, guardCombo, unsheatheCombo };
 }
 
-const elemDamageCalculation = (elemValue, elemSharpness, hitzone) => {
+const elemDamageCalculation = (elemType, elemValue, elemSharpness, hitzone) => {
     let elemFormula = elemValue * elemSharpness * (hitzone / 100) / 10;
     return Math.round(elemFormula * 100) / 100;
 };
@@ -120,7 +120,6 @@ function processHitzones(monster, damageType) {
 
 function applyDamageCalculation(monster, damageType, attack, sharpnessValue) {
     const sortedHitzones = processHitzones(monster, damageType);
-    console.log('elem2', sortedHitzones); // Debugging
     const damageResults = {}; // Stocke les résultats
 
     if (damageType === 'raw') {
@@ -129,27 +128,24 @@ function applyDamageCalculation(monster, damageType, attack, sharpnessValue) {
         });
     } else {
         sortedHitzones.forEach((hitzone, zone) => {
-            damageResults[zone] = elemDamageCalculation(attack, sharpnessValue, hitzone);
+            damageResults[zone] = elemDamageCalculation(damageType, attack, sharpnessValue, hitzone);
         });
     }
 
     return damageResults;
 }
 
-function generateDamageTable(damageResults) {
-    // Sélectionne la valeur du select avec id="monster"
+function generateDamageTable(damageResults, elemDamageResults, elementType = {}) {
     const monsterSelect = document.getElementById("monster");
     const selectedMonster = monsterSelect ? monsterSelect.value : "Unknown Monster";
-    const weaponName = document.getElementById('weapon').value
+    const weaponName = document.getElementById('weapon').value;
 
-    // Création de la div pour afficher le monstre sélectionné
     const monsterDiv = document.createElement("div");
     monsterDiv.id = "monster-name";
     monsterDiv.textContent = `${selectedMonster} - ${weaponName}`;
     monsterDiv.style.fontWeight = "bold";
     monsterDiv.style.marginBottom = "10px";
 
-    // Création du tableau
     const table = document.createElement("table");
     table.id = "monster_damage_values";
     table.className = "table table-hover table-bordered";
@@ -157,66 +153,97 @@ function generateDamageTable(damageResults) {
     const thead = document.createElement("thead");
     const headerRow = document.createElement("tr");
 
-    // Première colonne pour les noms des zones
     const thZone = document.createElement("th");
     thZone.textContent = "#";
     headerRow.appendChild(thZone);
 
-    // Déterminer dynamiquement les types de combos et retirer "Combo" du nom
     const firstZone = Object.keys(damageResults)[0];
     const comboTypes = Object.keys(damageResults[firstZone]).map(combo => combo.replace("Combo", ""));
 
-    // Ajouter une colonne pour chaque type de coup
     comboTypes.forEach(combo => {
         const th = document.createElement("th");
-        th.textContent = combo; // Nom propre sans "Combo"
+        th.textContent = combo;
         headerRow.appendChild(th);
     });
+
+    const hasElemData = elemDamageResults && Object.keys(elemDamageResults).length > 0;
+    if (hasElemData) {
+        const thElem = document.createElement("th");
+        thElem.textContent = "Élémentaire";
+        headerRow.appendChild(thElem);
+    }
 
     thead.appendChild(headerRow);
     table.appendChild(thead);
 
-    // Corps du tableau (tbody)
     const tbody = document.createElement("tbody");
 
     Object.entries(damageResults).forEach(([zone, combos]) => {
         const row = document.createElement("tr");
 
-        // Ajouter la zone dans la première colonne
         const th = document.createElement("th");
         th.scope = "row";
         th.textContent = zone;
         row.appendChild(th);
 
-        // Ajouter les valeurs pour chaque type de coup
         Object.keys(combos).forEach(comboKey => {
             const td = document.createElement("td");
-
             let comboDetails = combos[comboKey].comboDetails || [];
             let comboTotal = combos[comboKey].comboTotal || 0;
+            let hits = comboDetails.length || 1;
 
-            // Affichage conditionnel
+            // Texte de base : combo + total
             let comboText = comboDetails.length > 1
                 ? `${comboDetails.join(" + ")} = ${comboTotal}`
                 : comboTotal.toString();
 
-            td.textContent = comboText;
+            const elemValue = elemDamageResults[zone];
+            if (elemValue !== undefined) {
+                td.innerHTML = comboText;
+                let totalElem = hits * elemValue;
+                if (totalElem + comboTotal !== comboTotal) {
+                    totalElem = totalElem + comboTotal;
+                    const span = document.createElement("span");
+                    if (elementType == 'fire') {
+                        span.style.color = "#ff0000"; // firebrick
+                    } else if (elementType == 'water') {
+                        span.style.color = "#1e90ff"; // dodger blue
+                    } else if (elementType == 'thunder') {
+                        span.style.color = "#ffbf00"; // dark orange (plutôt que jaune)
+                    } else if (elementType == 'dragon') {
+                        span.style.color = "#800080"; // purple plus foncé
+                    }
+                    span.textContent = ' (' + totalElem.toFixed(2) + ')';
+                    td.appendChild(span);
+                }
+            } else {
+                td.textContent = comboText;
+            }
+
             row.appendChild(td);
         });
+
+        if (hasElemData) {
+            const tdElem = document.createElement("td");
+            tdElem.textContent = elemDamageResults[zone] !== undefined
+                ? elemDamageResults[zone].toFixed(2)
+                : "-";
+            row.appendChild(tdElem);
+        }
 
         tbody.appendChild(row);
     });
 
     table.appendChild(tbody);
 
-    // Ajoute la div et le tableau au body
     const mainContainer = document.getElementById("generated_tables");
 
     const container = document.createElement("div");
     container.setAttribute('ref', selectedMonster);
-    container.className = "col-12 col-lg-6";
+    container.className = "col-12";
     container.appendChild(monsterDiv);
     container.appendChild(table);
 
     mainContainer.appendChild(container);
 }
+
