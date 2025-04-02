@@ -1,6 +1,6 @@
 var weaponType = ""
 var weaponData = {}
-const hitzonesOrder = ['Face', 'Head', 'Horn', 'Neck', 'Back', 'Shoulder', 'Spine', 'Wing', 'Chest', 'Body', 'Stomach', 'Stomach**', 'Tail', 'Foot'];
+const hitzonesOrder = ['Face', 'Head', 'Horn', 'Neck', 'Back', 'Shoulder', 'Spine', 'Wing', 'Chest', 'Body', 'Stomach', 'Stomach (broken)', 'Tail', 'Foot'];
 document.getElementById('weapon_type').addEventListener('change', async () => {
     let weaponSelect = document.getElementById('weapon_type')
     weaponType = weaponSelect.value; // Récupère la valeur sélectionnée
