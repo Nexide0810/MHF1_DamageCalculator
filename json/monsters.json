@@ -1,68 +1,604 @@
 {
-    "Diablos": {
+    "Yian Kut Ku": {
         "Hitzones": {
             "Head": {
-                "cut": 35,
-                "blow": 10,
-                "fire": 40,
-                "water": 15,
-                "thunder": 15,
-                "dragon": 15,
-                "stagger limit": "250 HP"
+                "cut": 50,
+                "blow": 80,
+                "fire": 10,
+                "water": 40,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "80 HP"
             },
             "Neck": {
-                "cut": 45,
-                "blow": 65,
-                "fire": 20,
-                "water": 15,
+                "cut": 50,
+                "blow": 60,
+                "fire": 10,
+                "water": 100,
+                "thunder": 50,
+                "dragon": 20,
+                "stagger limit": "100 HP"
+            },
+            "Back": {
+                "cut": 40,
+                "blow": 50,
+                "fire": 10,
+                "water": 25,
                 "thunder": 15,
-                "dragon": 15,
+                "dragon": 0,
+                "stagger limit": "130 HP"
+            },
+            "Stomach": {
+                "cut": 80,
+                "blow": 70,
+                "fire": 10,
+                "water": 25,
+                "thunder": 15,
+                "dragon": 0,
+                "stagger limit": "130 HP"
+            },
+            "Tail": {
+                "cut": 50,
+                "blow": 60,
+                "fire": 10,
+                "water": 25,
+                "thunder": 15,
+                "dragon": 0,
+                "stagger limit": "80 HP"
+            },
+            "Wing": {
+                "cut": 75,
+                "blow": 70,
+                "fire": 10,
+                "water": 20,
+                "thunder": 25,
+                "dragon": 0,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 25,
+                "blow": 30,
+                "fire": 5,
+                "water": 10,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "100 HP"
+            }
+        }
+    },
+    "Gypceros": {
+        "Hitzones": {
+            "Head": {
+                "cut": 30,
+                "blow": 80,
+                "fire": 50,
+                "water": 20,
+                "thunder": 0,
+                "dragon": 10,
+                "stagger limit": "130 HP"
+            },
+            "Neck": {
+                "cut": 50,
+                "blow": 25,
+                "fire": 30,
+                "water": 10,
+                "thunder": 0,
+                "dragon": 10,
+                "stagger limit": "80 HP"
+            },
+            "Back": {
+                "cut": 70,
+                "blow": 30,
+                "fire": 20,
+                "water": 10,
+                "thunder": 0,
+                "dragon": 10,
+                "stagger limit": "150 HP"
+            },
+            "Stomach": {
+                "cut": 80,
+                "blow": 30,
+                "fire": 30,
+                "water": 10,
+                "thunder": 0,
+                "dragon": 10,
+                "stagger limit": "150 HP"
+            },
+            "Tail": {
+                "cut": 90,
+                "blow": 40,
+                "fire": 30,
+                "water": 10,
+                "thunder": 0,
+                "dragon": 10,
+                "stagger limit": "80 HP"
+            },
+            "Wing": {
+                "cut": 50,
+                "blow": 30,
+                "fire": 30,
+                "water": 20,
+                "thunder": 0,
+                "dragon": 10,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 10,
+                "water": 10,
+                "thunder": 0,
+                "dragon": 10,
+                "stagger limit": "120 HP"
+            }
+        }
+    },
+    "Basarios": {
+        "Hitzones": {
+            "Head": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 15,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 18,
+                "stagger limit": "100 HP"
+            },
+            "Neck": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 15,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 18,
                 "stagger limit": "100 HP"
             },
             "Back": {
                 "cut": 20,
-                "blow": 35,
-                "fire": 30,
-                "water": 15,
-                "thunder": 15,
-                "dragon": 15,
-                "stagger limit": "220 HP"
+                "blow": 20,
+                "fire": 15,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 18,
+                "stagger limit": "200 HP"
             },
             "Stomach": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 20,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 18,
+                "stagger limit": "300 HP"
+            },
+            "Tail": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 15,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 18,
+                "stagger limit": "140 HP"
+            },
+            "Wing": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 15,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 18,
+                "stagger limit": "130 HP"
+            },
+            "Foot": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 20,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 10,
+                "stagger limit": "100 HP"
+            }
+        }
+    },
+    "Cephadrome": {
+        "Hitzones": {
+            "Head": {
                 "cut": 40,
                 "blow": 50,
-                "fire": 20,
+                "fire": 0,
+                "water": 10,
+                "thunder": 15,
+                "dragon": 5,
+                "stagger limit": "100 HP"
+            },
+            "Neck": {
+                "cut": 110,
+                "blow": 100,
+                "fire": 0,
+                "water": 10,
+                "thunder": 15,
+                "dragon": 5,
+                "stagger limit": "80 HP"
+            },
+            "Back": {
+                "cut": 100,
+                "blow": 90,
+                "fire": 0,
+                "water": 12,
+                "thunder": 20,
+                "dragon": 5,
+                "stagger limit": "150 HP"
+            },
+            "Stomach": {
+                "cut": 120,
+                "blow": 130,
+                "fire": 0,
                 "water": 15,
                 "thunder": 15,
-                "dragon": 15,
-                "stagger limit": "220 HP"
+                "dragon": 5,
+                "stagger limit": "150 HP"
             },
             "Tail": {
                 "cut": 60,
-                "blow": 55,
-                "fire": 20,
-                "water": 15,
-                "thunder": 15,
-                "dragon": 15,
-                "stagger limit": "180 HP"
+                "blow": 50,
+                "fire": 0,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 5,
+                "stagger limit": "100 HP"
             },
             "Wing": {
                 "cut": 40,
-                "blow": 55,
-                "fire": 20,
-                "water": 15,
-                "thunder": 15,
-                "dragon": 15,
+                "blow": 50,
+                "fire": 0,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 5,
                 "stagger limit": "100 HP"
             },
             "Foot": {
-                "cut": 30,
-                "blow": 35,
-                "fire": 10,
+                "cut": 35,
+                "blow": 30,
+                "fire": 0,
+                "water": 15,
+                "thunder": 10,
+                "dragon": 5,
+                "stagger limit": "170 HP"
+            }
+        }
+    },
+    "Khezu": {
+        "Hitzones": {
+            "Head": {
+                "cut": 45,
+                "blow": 60,
+                "fire": 40,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "200 HP"
+            },
+            "Neck": {
+                "cut": 60,
+                "blow": 50,
+                "fire": 30,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "140 HP"
+            },
+            "Back": {
+                "cut": 50,
+                "blow": 50,
+                "fire": 30,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "200 HP"
+            },
+            "Stomach": {
+                "cut": 50,
+                "blow": 25,
+                "fire": 30,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "200 HP"
+            },
+            "Tail": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 20,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "90 HP"
+            },
+            "Wing": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 20,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "120 HP"
+            },
+            "Foot": {
+                "cut": 25,
+                "blow": 20,
+                "fire": 15,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "130 HP"
+            }
+        }
+    },
+    "Red Khezu": {
+        "Hitzones": {
+            "Head": {
+                "cut": 45,
+                "blow": 60,
+                "fire": 5,
+                "water": 40,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "200 HP"
+            },
+            "Neck": {
+                "cut": 60,
+                "blow": 50,
+                "fire": 5,
+                "water": 30,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "140 HP"
+            },
+            "Back": {
+                "cut": 50,
+                "blow": 50,
+                "fire": 5,
+                "water": 30,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "200 HP"
+            },
+            "Stomach": {
+                "cut": 50,
+                "blow": 25,
+                "fire": 5,
+                "water": 30,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "200 HP"
+            },
+            "Tail": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 5,
+                "water": 20,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "90 HP"
+            },
+            "Wing": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 5,
+                "water": 20,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "120 HP"
+            },
+            "Foot": {
+                "cut": 25,
+                "blow": 20,
+                "fire": 5,
+                "water": 15,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "130 HP"
+            }
+        }
+    },
+    "Rathalos": {
+        "Hitzones": {
+            "Head": {
+                "cut": 80,
+                "blow": 70,
+                "fire": 0,
+                "water": 30,
+                "thunder": 15,
+                "dragon": 30,
+                "stagger limit": "180 HP"
+            },
+            "Neck": {
+                "cut": 50,
+                "blow": 50,
+                "fire": 0,
+                "water": 20,
+                "thunder": 10,
+                "dragon": 20,
+                "stagger limit": "100 HP"
+            },
+            "Back": {
+                "cut": 25,
+                "blow": 30,
+                "fire": 0,
+                "water": 20,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "160 HP"
+            },
+            "Stomach": {
+                "cut": 45,
+                "blow": 40,
+                "fire": 0,
                 "water": 15,
                 "thunder": 15,
-                "dragon": 15,
-                "stagger limit": "200 HP"
+                "dragon": 10,
+                "stagger limit": "160 HP"
+            },
+            "Tail": {
+                "cut": 30,
+                "blow": 30,
+                "fire": 0,
+                "water": 10,
+                "thunder": 5,
+                "dragon": 20,
+                "stagger limit": "150 HP"
+            },
+            "Wing": {
+                "cut": 25,
+                "blow": 20,
+                "fire": 0,
+                "water": 30,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 45,
+                "blow": 50,
+                "fire": 0,
+                "water": 10,
+                "thunder": 5,
+                "dragon": 5,
+                "stagger limit": "160 HP"
+            }
+        }
+    },
+    "Azure Rathalos": {
+        "Hitzones": {
+            "Head": {
+                "cut": 80,
+                "blow": 70,
+                "fire": 0,
+                "water": 15,
+                "thunder": 15,
+                "dragon": 30,
+                "stagger limit": "180 HP"
+            },
+            "Neck": {
+                "cut": 50,
+                "blow": 50,
+                "fire": 0,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 20,
+                "stagger limit": "100 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 25,
+                "fire": 0,
+                "water": 15,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "160 HP"
+            },
+            "Stomach": {
+                "cut": 45,
+                "blow": 40,
+                "fire": 0,
+                "water": 15,
+                "thunder": 15,
+                "dragon": 10,
+                "stagger limit": "160 HP"
+            },
+            "Tail": {
+                "cut": 30,
+                "blow": 25,
+                "fire": 0,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 20,
+                "stagger limit": "150 HP"
+            },
+            "Wing": {
+                "cut": 20,
+                "blow": 15,
+                "fire": 0,
+                "water": 15,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 45,
+                "blow": 40,
+                "fire": 0,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 5,
+                "stagger limit": "160 HP"
+            }
+        }
+    },
+    "Silver Rathalos": {
+        "Hitzones": {
+            "Head": {
+                "cut": 25,
+                "blow": 80,
+                "fire": 0,
+                "water": 30,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "180 HP"
+            },
+            "Neck": {
+                "cut": 35,
+                "blow": 55,
+                "fire": 0,
+                "water": 20,
+                "thunder": 20,
+                "dragon": 0,
+                "stagger limit": "100 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 25,
+                "fire": 0,
+                "water": 20,
+                "thunder": 20,
+                "dragon": 0,
+                "stagger limit": "160 HP"
+            },
+            "Stomach": {
+                "cut": 35,
+                "blow": 45,
+                "fire": 0,
+                "water": 15,
+                "thunder": 15,
+                "dragon": 0,
+                "stagger limit": "160 HP"
+            },
+            "Tail": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 0,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 0,
+                "stagger limit": "150 HP"
+            },
+            "Wing": {
+                "cut": 80,
+                "blow": 20,
+                "fire": 0,
+                "water": 30,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 25,
+                "blow": 40,
+                "fire": 0,
+                "water": 10,
+                "thunder": 10,
+                "dragon": 0,
+                "stagger limit": "160 HP"
             }
         }
     },
@@ -133,6 +669,560 @@
             }
         }
     },
+    "Pink Rathian": {
+        "Hitzones": {
+            "Head": {
+                "cut": 90,
+                "blow": 80,
+                "fire": 0,
+                "water": 15,
+                "thunder": 20,
+                "dragon": 35,
+                "stagger limit": "200 HP"
+            },
+            "Neck": {
+                "cut": 50,
+                "blow": 40,
+                "fire": 0,
+                "water": 10,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "90 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 25,
+                "fire": 0,
+                "water": 10,
+                "thunder": 15,
+                "dragon": 25,
+                "stagger limit": "150 HP"
+            },
+            "Stomach": {
+                "cut": 60,
+                "blow": 55,
+                "fire": 0,
+                "water": 5,
+                "thunder": 20,
+                "dragon": 10,
+                "stagger limit": "150 HP"
+            },
+            "Tail": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 0,
+                "water": 5,
+                "thunder": 10,
+                "dragon": 25,
+                "stagger limit": "140 HP"
+            },
+            "Wing": {
+                "cut": 20,
+                "blow": 15,
+                "fire": 0,
+                "water": 10,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 55,
+                "blow": 50,
+                "fire": 0,
+                "water": 5,
+                "thunder": 10,
+                "dragon": 5,
+                "stagger limit": "180 HP"
+            }
+        }
+    },
+    "Gold Rathian": {
+        "Hitzones": {
+            "Head": {
+                "cut": 25,
+                "blow": 80,
+                "fire": 0,
+                "water": 15,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "200 HP"
+            },
+            "Neck": {
+                "cut": 35,
+                "blow": 50,
+                "fire": 0,
+                "water": 10,
+                "thunder": 20,
+                "dragon": 0,
+                "stagger limit": "90 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 25,
+                "fire": 0,
+                "water": 10,
+                "thunder": 20,
+                "dragon": 0,
+                "stagger limit": "150 HP"
+            },
+            "Stomach": {
+                "cut": 35,
+                "blow": 45,
+                "fire": 0,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 0,
+                "stagger limit": "150 HP"
+            },
+            "Tail": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 0,
+                "water": 5,
+                "thunder": 10,
+                "dragon": 0,
+                "stagger limit": "140 HP"
+            },
+            "Wing": {
+                "cut": 80,
+                "blow": 20,
+                "fire": 0,
+                "water": 10,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 25,
+                "blow": 40,
+                "fire": 0,
+                "water": 5,
+                "thunder": 10,
+                "dragon": 0,
+                "stagger limit": "180 HP"
+            }
+        }
+    },
+    "Plesioth": {
+        "Hitzones": {
+            "Head": {
+                "cut": 30,
+                "blow": 30,
+                "fire": 25,
+                "water": 0,
+                "thunder": 25,
+                "dragon": 5,
+                "stagger limit": "130 HP"
+            },
+            "Neck": {
+                "cut": 60,
+                "blow": 50,
+                "fire": 30,
+                "water": 0,
+                "thunder": 30,
+                "dragon": 5,
+                "stagger limit": "150 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 20,
+                "water": 0,
+                "thunder": 25,
+                "dragon": 5,
+                "stagger limit": "250 HP"
+            },
+            "Stomach": {
+                "cut": 100,
+                "blow": 80,
+                "fire": 35,
+                "water": 0,
+                "thunder": 35,
+                "dragon": 5,
+                "stagger limit": "250 HP"
+            },
+            "Tail": {
+                "cut": 50,
+                "blow": 40,
+                "fire": 30,
+                "water": 0,
+                "thunder": 30,
+                "dragon": 5,
+                "stagger limit": "180 HP"
+            },
+            "Wing": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 20,
+                "water": 0,
+                "thunder": 20,
+                "dragon": 5,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 50,
+                "blow": 40,
+                "fire": 10,
+                "water": 0,
+                "thunder": 10,
+                "dragon": 5,
+                "stagger limit": "250 HP"
+            }
+        }
+    },
+    "Gravios": {
+        "Hitzones": {
+            "Head": {
+                "cut": 20,
+                "blow": 30,
+                "fire": 0,
+                "water": 15,
+                "thunder": 5,
+                "dragon": 40,
+                "stagger limit": "120 HP"
+            },
+            "Neck": {
+                "cut": 30,
+                "blow": 30,
+                "fire": 0,
+                "water": 30,
+                "thunder": 5,
+                "dragon": 20,
+                "stagger limit": "120 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 30,
+                "fire": 0,
+                "water": 25,
+                "thunder": 5,
+                "dragon": 15,
+                "stagger limit": "240 HP"
+            },
+            "Stomach": {
+                "cut": 25,
+                "blow": 30,
+                "fire": 0,
+                "water": 35,
+                "thunder": 5,
+                "dragon": 35,
+                "stagger limit": "700 HP"
+            },
+            "Stomach (broken)": {
+                "cut": 70,
+                "blow": 80,
+                "fire": 0,
+                "water": 50,
+                "thunder": 5,
+                "dragon": 50,
+                "stagger limit": "700 HP"
+            },
+            "Tail": {
+                "cut": 25,
+                "blow": 30,
+                "fire": 0,
+                "water": 30,
+                "thunder": 5,
+                "dragon": 20,
+                "stagger limit": "200 HP"
+            },
+            "Wing": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 0,
+                "water": 20,
+                "thunder": 5,
+                "dragon": 15,
+                "stagger limit": "120 HP"
+            },
+            "Foot": {
+                "cut": 15,
+                "blow": 25,
+                "fire": 0,
+                "water": 30,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "160 HP"
+            }
+        }
+    },
+    "Black Gravios": {
+        "Hitzones": {
+            "Head": {
+                "cut": 20,
+                "blow": 30,
+                "fire": 0,
+                "water": 15,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "120 HP"
+            },
+            "Neck": {
+                "cut": 30,
+                "blow": 30,
+                "fire": 0,
+                "water": 30,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "120 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 30,
+                "fire": 0,
+                "water": 25,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "240 HP"
+            },
+            "Stomach": {
+                "cut": 15,
+                "blow": 25,
+                "fire": 0,
+                "water": 40,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "700 HP"
+            },
+            "Stomach (broken)": {
+                "cut": 80,
+                "blow": 80,
+                "fire": 0,
+                "water": 90,
+                "thunder": 5,
+                "dragon": 30,
+                "stagger limit": "700 HP"
+            },
+            "Tail": {
+                "cut": 25,
+                "blow": 30,
+                "fire": 0,
+                "water": 30,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "200 HP"
+            },
+            "Wing": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 0,
+                "water": 20,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "120 HP"
+            },
+            "Foot": {
+                "cut": 15,
+                "blow": 25,
+                "fire": 0,
+                "water": 30,
+                "thunder": 5,
+                "dragon": 0,
+                "stagger limit": "160 HP"
+            }
+        }
+    },
+    "Monoblos": {
+        "Hitzones": {
+            "Head": {
+                "cut": 35,
+                "blow": 20,
+                "fire": 5,
+                "water": 30,
+                "thunder": 20,
+                "dragon": 0,
+                "stagger limit": "200 HP"
+            },
+            "Neck": {
+                "cut": 50,
+                "blow": 80,
+                "fire": 10,
+                "water": 20,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "100 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 30,
+                "fire": 5,
+                "water": 30,
+                "thunder": 20,
+                "dragon": 0,
+                "stagger limit": "120 HP"
+            },
+            "Stomach": {
+                "cut": 50,
+                "blow": 45,
+                "fire": 5,
+                "water": 20,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "120 HP"
+            },
+            "Tail": {
+                "cut": 80,
+                "blow": 60,
+                "fire": 10,
+                "water": 20,
+                "thunder": 25,
+                "dragon": 0,
+                "stagger limit": "180 HP"
+            },
+            "Wing": {
+                "cut": 60,
+                "blow": 50,
+                "fire": 10,
+                "water": 20,
+                "thunder": 30,
+                "dragon": 0,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 40,
+                "blow": 45,
+                "fire": 20,
+                "water": 10,
+                "thunder": 20,
+                "dragon": 0,
+                "stagger limit": "150 HP"
+            }
+        }
+    },
+    "Diablos": {
+        "Hitzones": {
+            "Head": {
+                "cut": 35,
+                "blow": 10,
+                "fire": 0,
+                "water": 40,
+                "thunder": 15,
+                "dragon": 15,
+                "stagger limit": "250 HP"
+            },
+            "Neck": {
+                "cut": 45,
+                "blow": 65,
+                "fire": 0,
+                "water": 20,
+                "thunder": 15,
+                "dragon": 15,
+                "stagger limit": "100 HP"
+            },
+            "Back": {
+                "cut": 20,
+                "blow": 35,
+                "fire": 0,
+                "water": 30,
+                "thunder": 15,
+                "dragon": 15,
+                "stagger limit": "220 HP"
+            },
+            "Stomach": {
+                "cut": 40,
+                "blow": 50,
+                "fire": 0,
+                "water": 20,
+                "thunder": 15,
+                "dragon": 15,
+                "stagger limit": "220 HP"
+            },
+            "Tail": {
+                "cut": 60,
+                "blow": 55,
+                "fire": 0,
+                "water": 20,
+                "thunder": 15,
+                "dragon": 15,
+                "stagger limit": "180 HP"
+            },
+            "Wing": {
+                "cut": 40,
+                "blow": 55,
+                "fire": 0,
+                "water": 20,
+                "thunder": 15,
+                "dragon": 15,
+                "stagger limit": "100 HP"
+            },
+            "Foot": {
+                "cut": 30,
+                "blow": 35,
+                "fire": 0,
+                "water": 10,
+                "thunder": 15,
+                "dragon": 15,
+                "stagger limit": "200 HP"
+            }
+        }
+    },
+    "Lao Shan Lung": {
+        "Hitzones": {
+            "Head": {
+                "cut": 28,
+                "blow": 20,
+                "fire": 20,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "400 HP"
+            },
+            "Neck": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 20,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "1200 HP"
+            },
+            "Shoulder": {
+                "cut": 10,
+                "blow": 20,
+                "fire": 20,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "600 HP"
+            },
+            "Spine": {
+                "cut": null,
+                "blow": null,
+                "fire": 50,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 100,
+                "stagger limit": "300 HP"
+            },
+            "Tail": {
+                "cut": 10,
+                "blow": 20,
+                "fire": 20,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "900 HP"
+            },
+            "Stomach": {
+                "cut": 55,
+                "blow": 50,
+                "fire": 20,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 30,
+                "stagger limit": "1200 HP"
+            },
+            "Foot": {
+                "cut": 32,
+                "blow": 37,
+                "fire": 20,
+                "water": 5,
+                "thunder": 15,
+                "dragon": 20,
+                "stagger limit": "600 HP"
+            }
+        }
+    },
     "Fatalis": {
         "Hitzones": {
             "Face": {
@@ -142,7 +1232,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 80,
-                "stagger limit": "500 HP"
+                "stagger limit": "500"
             },
             "Head": {
                 "cut": 50,
@@ -151,7 +1241,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 50,
-                "stagger limit": "250 HP"
+                "stagger limit": "250"
             },
             "Neck": {
                 "cut": 30,
@@ -160,7 +1250,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 30,
-                "stagger limit": "300 HP"
+                "stagger limit": "300"
             },
             "Back": {
                 "cut": 10,
@@ -169,7 +1259,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 10,
-                "stagger limit": "180 HP"
+                "stagger limit": "180"
             },
             "Tail": {
                 "cut": 10,
@@ -178,7 +1268,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 10,
-                "stagger limit": "180 HP"
+                "stagger limit": "180"
             },
             "Chest": {
                 "cut": 10,
@@ -187,7 +1277,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 10,
-                "stagger limit": "180 HP"
+                "stagger limit": "180"
             },
             "Wing": {
                 "cut": 30,
@@ -196,7 +1286,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 10,
-                "stagger limit": "240 HP"
+                "stagger limit": "240"
             },
             "Stomach": {
                 "cut": 20,
@@ -205,7 +1295,7 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 20,
-                "stagger limit": "200 HP"
+                "stagger limit": "200"
             },
             "Foot": {
                 "cut": 20,
@@ -214,7 +1304,308 @@
                 "water": 5,
                 "thunder": 5,
                 "dragon": 20,
+                "stagger limit": "200"
+            }
+        }
+    },
+    "Crimson Fatalis (Non-armor)": {
+        "Hitzones": {
+            "Face": {
+                "cut": 50,
+                "blow": 45,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 80,
+                "stagger limit": "500"
+            },
+            "Head": {
+                "cut": 30,
+                "blow": 25,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 50,
+                "stagger limit": "250"
+            },
+            "Neck": {
+                "cut": 30,
+                "blow": 25,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 30,
+                "stagger limit": "300"
+            },
+            "Back": {
+                "cut": 10,
+                "blow": 20,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "180"
+            },
+            "Tail": {
+                "cut": 10,
+                "blow": 20,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "180"
+            },
+            "Chest": {
+                "cut": 10,
+                "blow": 15,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "300"
+            },
+            "Wing": {
+                "cut": 30,
+                "blow": 25,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "240"
+            },
+            "Stomach": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 20,
+                "stagger limit": "200"
+            },
+            "Foot": {
+                "cut": 20,
+                "blow": 20,
+                "fire": 15,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 20,
+                "stagger limit": "200"
+            }
+        }
+    },
+    "Crimson Fatalis (Armor)": {
+        "Hitzones": {
+            "Face": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "500"
+            },
+            "Head": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "250"
+            },
+            "Neck": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "300"
+            },
+            "Back": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "180"
+            },
+            "Tail": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "180"
+            },
+            "Chest": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "300"
+            },
+            "Wing": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "240"
+            },
+            "Stomach": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "200"
+            },
+            "Foot": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 10,
+                "water": 5,
+                "thunder": 5,
+                "dragon": 10,
+                "stagger limit": "200"
+            }
+        }
+    },
+    "Yian Garuga": {
+        "Hitzones": {
+            "Head": {
+                "cut": 55,
+                "blow": 50,
+                "fire": 0,
+                "water": 20,
+                "thunder": 0,
+                "dragon": 5,
                 "stagger limit": "200 HP"
+            },
+            "Neck": {
+                "cut": 40,
+                "blow": 40,
+                "fire": 0,
+                "water": 30,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "100 HP"
+            },
+            "Back": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 5,
+                "water": 70,
+                "thunder": 5,
+                "dragon": 15,
+                "stagger limit": "160 HP"
+            },
+            "Stomach": {
+                "cut": 10,
+                "blow": 10,
+                "fire": 15,
+                "water": 40,
+                "thunder": 15,
+                "dragon": 30,
+                "stagger limit": "160 HP"
+            },
+            "Tail": {
+                "cut": 40,
+                "blow": 10,
+                "fire": 5,
+                "water": 30,
+                "thunder": 5,
+                "dragon": 15,
+                "stagger limit": "140 HP"
+            },
+            "Wing": {
+                "cut": 10,
+                "blow": 40,
+                "fire": 0,
+                "water": 20,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "150 HP"
+            },
+            "Foot": {
+                "cut": 25,
+                "blow": 25,
+                "fire": 0,
+                "water": 15,
+                "thunder": 0,
+                "dragon": 5,
+                "stagger limit": "180 HP"
+            }
+        }
+    },
+    "Velocidrome": {
+        "Hitzones": {
+            "N/A": {
+                "cut": 100,
+                "blow": 100,
+                "fire": 50,
+                "water": 50,
+                "thunder": 50,
+                "dragon": 10
+            }
+        }
+    },
+    "Gendrome": {
+        "Hitzones": {
+            "N/A": {
+                "cut": 90,
+                "blow": 90,
+                "fire": 40,
+                "water": 40,
+                "thunder": 40,
+                "dragon": 10
+            }
+        }
+    },
+    "Iodrome": {
+        "Hitzones": {
+            "N/A": {
+                "cut": 80,
+                "blow": 80,
+                "fire": 30,
+                "water": 30,
+                "thunder": 30,
+                "dragon": 10
+            }
+        }
+    },
+    "Kirin": {
+        "Hitzones": {
+            "Head": {
+                "cut": 45,
+                "blow": 40,
+                "fire": 15,
+                "water": 15,
+                "thunder": 0,
+                "dragon": 5
+            },
+            "Body": {
+                "cut": 20,
+                "blow": 25,
+                "fire": 10,
+                "water": 10,
+                "thunder": 0,
+                "dragon": 5
+            },
+            "Horn": {
+                "cut": 90,
+                "blow": 100,
+                "fire": 5,
+                "water": 5,
+                "thunder": 0,
+                "dragon": 5
             }
         }
     }
