@@ -266,7 +266,7 @@
             "Golden_Falchion": {
                 "name": "Golden Falchion",
                 "attack": 266,
-                "sharpness": "green",
+                "sharpness": "blue",
                 "tier": 7,
                 "element": {
                     "type": "fire",
