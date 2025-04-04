@@ -770,7 +770,7 @@
             "True_Black_Dragon_Sword": {
                 "name": "True Black Dragon Sword",
                 "attack": 336,
-                "sharpness": "Blue",
+                "sharpness": "blue",
                 "tier": 7,
                 "element": {
                     "type": "dragon",
